@@ -1,0 +1,48 @@
+h4 {
+    color:blueviolet;
+}
+h5 {
+    color:rgb(252, 149, 15); 
+}
+/* rgb is red blue green colors (from 0 to 255) */
+h6 {
+    color:rgb(100, 65, 228);
+}
+h1 {
+    color:#ff0000;
+}
+/* hexadecimal system :- # r g b - 00 00 00 to ff ff ff */
+/* example :- for yellow we use red and green - ffff00 -rgb : 255,255,0 */
+p {
+    color:slateblue;
+}
+button {
+    color:sienna;
+    background-color: rgb(165, 236, 235);
+}
+
+h1 {
+    background-color:#ffff00;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+*{
+    color:turquoise;
+}
+
+/* *{} universal selector
+   h1{} element selector
+   #iID {} ID selector
+   .myclass {} class selector */
+
+#headingone {
+    color: rgb(42, 17, 233);
+    background-color: wheat;
+}
+
+.myclass{
+    color:mediumvioletred;
+    background-color: bisque;}
