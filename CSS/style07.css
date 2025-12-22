@@ -1,0 +1,21 @@
+div{
+    background-color: pink; /* This is a block level element while button is a inline element*/
+    display: inline; /*Now div will become inline */
+    /*block element will always take complete line and start from a new line only*/
+}
+button{
+    display:block; /*Now button is block here not inline*/
+}
+/*Inline-block similar to inline but we can set marginand padding
+while in inline we cant set margin of top and bottom when it is 
+created from block element */
+
+/* to remove a element we use display none or visibility hidden
+ but in display none space is not left while visiblitiy none leaves 
+ space on the website for the element */
+
+/* RGBA -> where A is alpha channel from 0 to 1 i.e, opacity 
+0 not visible 1 for 100% visiblity */
+div{
+    background-color: rgba(255, 210, 10, 0.33);
+}

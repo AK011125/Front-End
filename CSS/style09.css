@@ -1,0 +1,15 @@
+#one{
+    height: 100px;
+    width: 500px;
+    background-color: rgb(235, 220, 11);
+}
+
+#two{
+    height: 50%; /*it means 50 % of its parent div*/
+    width: 40%; /*if we use em here so it referse to 40 times of its owen font size*/
+    background-color: aquamarine;
+    font-size: 3em; /*it means 3 times of its parent div*/
+}
+/* rem is also like em it means font size of the root element(i.e,body tag me likh hua font without any tag) */
+/* similar units are vh i.e, view port height which means jitne screen visible hai uske refernce me */
+/* same for vw in width case */

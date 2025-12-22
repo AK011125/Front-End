@@ -1,0 +1,35 @@
+div{
+    background-color: aqua;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+h1{
+    text-align: center;
+}
+#box1{
+    position: static; /*no change now in position*/
+}
+#box2{
+    position: relative;
+    top: 50px; /*now it  will shift 50 px from top*/
+    left: 20px;/*now it  will shift 20 px from left*/
+    z-index: 1; /*now it will come above others while overlapping bcz other have z index 0*/
+}
+#box3{
+    position: absolute;
+    top: 170px; /*if we use absolute so it will not start from its original place it will start from absolute zero*/
+    left: 20px;
+}
+#box4{
+    position: fixed;
+    bottom: 5px; /*generally used for footers those whose position we want to fix*/
+}
+/*we fix position of nav bar by this either we scroll it fix at top or whereever fixed*/
+#box5{
+    position: sticky;
+    top: 500px;
+}
+/* jaha ye fix kiya hai uske niche to ye fix vala behave karega and jaha fix hai uske upar ye noemal ki tahara behave karegi */
+/* z index cannot be set for static positions */

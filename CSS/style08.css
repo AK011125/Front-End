@@ -1,0 +1,50 @@
+#ID100{
+    height: 700px;
+}
+#ID101{
+    height: 100px;
+    width: 100px;
+    border: solid;
+    margin: 2px;
+    background-color: rgba(11, 126, 241, 0.5);
+    display: inline-block;
+}
+#ID102{
+    height: 100px;
+    width: 100px;
+    border: solid;
+    margin: 2px;
+    background-color: rgba(49, 221, 6, 0.5); 
+    display: inline-block;
+}
+#ID103{
+    height: 100px;
+    width: 100px;
+    border: solid;
+    margin: 2px;
+    background-color: rgba(119, 12, 233, 0.5);
+    display: inline-block;
+}
+
+.top{
+    background-color: #131921;
+    color: white;
+    height: 40px;
+}
+button{
+    background-color: orange;
+}
+#one{
+    color: orange;
+    font-size: 20px;
+}
+a{
+    margin-right: 200px;
+    color: white;
+    text-decoration: none;
+} 
+footer{
+    text-align: center;
+    background-color: #131921;
+    color: white;
+}

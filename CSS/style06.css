@@ -1,3 +1,20 @@
+/* div{
+   height: 100px;
+   width: 100px;
+   background-color: green;
+   border-radius: 50%;
+} */
 div{
-    
+    background-color: black;
+    color: white;
+}
+button{
+    background-color: orange;
+}
+#one{
+    color: orange;
+    font-size: 20px;
+}
+a{
+    margin-right: 60px;
 }

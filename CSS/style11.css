@@ -1,0 +1,9 @@
+#one{
+    background-image: url(image01.png);
+    background-size: cover;
+    height: 200px;
+    width: 500px;
+}
+/* cover is use to remove all empty spaces , contain me fit hogi 
+but complete visible hogi but repeat hogi to remove repeat 
+use background repeat to no repeat tag*/
