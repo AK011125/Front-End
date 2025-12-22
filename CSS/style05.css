@@ -1,0 +1,21 @@
+h1{
+    background-color: aqua;
+    border-style: dotted;
+    width: 200px;
+    text-align: center; /* Now here alignment is done on the bases of width alotted*/
+}
+div{
+    border-style: dotted;
+    border-width: 2px;
+    border-color: rgb(232, 139, 25);
+    background-color: aliceblue;
+    width: 300px;
+    height: 50px;
+    border-radius: 15px; /*for round edges if set to 50% so complete circle it can be be set in % or px */
+    padding-left: 20px; /*spacing between border in content/text (it can be from left righ top bottom)*/
+    padding: 21px 22px 23px 20px; /*clockwise chalti hai from top->right->bottom->left if write single word so apply to all same */
+    margin: 2px 3px 4px 5px; /*distance between two div or ywo blocks same as padding rest properties*/
+}
+p{
+    border:2px solid red; /*border: (width)(style)(color)*/
+}

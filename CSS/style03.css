@@ -1,0 +1,28 @@
+p{
+    text-align: right;
+    text-decoration: red underline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* font family follow left to right priority */
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+} 
+/* to remove the underline of the anchor tag  */
+h4{
+    font-weight: bolder;
+}
+h2{
+    font-weight: lighter;
+}
+h3{
+    font-weight: 300;
+}
+p{
+    font-size: 30px;
+    line-height: 50px;
+    text-transform: capitalize;
+}
