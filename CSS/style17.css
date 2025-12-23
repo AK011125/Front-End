@@ -1,0 +1,17 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+    border: 2px solid black;
+    transition-property: all; /*transition properties kon kon si apply hongi*/
+    transition-duration: 4s; /*it will take this time tin transition*/
+    transition-timing-function: steps(5); /*transition function kitne time me kase hoga*/
+    transition: fontsize 2s ease-in-out 0.2s; /*transition:property name| duration| timming-function| delay*/
+}
+div:hover{
+    background-color: aqua;
+    color: white;
+}/*hover karne pe ye properties apply hongi*/
+div:active{
+    background-color: violet;
+}/*click means active here*/

@@ -1,0 +1,30 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border: 2px solid black;
+    animation-name: colorchange;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 2s;
+    animation-iteration-count: 3;
+}
+@keyframes colorchange {
+    from{background-color: aqua;}
+    to{background-color: red;}  
+}
+
+/* @keyframes myname{
+    from{} 
+    to{}
+}*/
+
+/* animation shorthand :-
+animation: name| duration |timing function| delay |iteration count| direction*/
+/* animation: colorchange 3s ease-in 0s 3 normal */
+
+/* 0% from
+25%
+30% ....etc..
+50%
+100% to */

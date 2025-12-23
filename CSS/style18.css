@@ -1,0 +1,18 @@
+div{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    /* transform: rotate(45deg);/*rotation of div with text  */
+    /* transform: scale(2); /*scale(x,y) or scaleX() or scaleY() */
+    position: absolute;
+    top:100px;
+    left:200px;
+    transition: all 2s ease-in;
+}
+/* we can also use all these transform in hover or active state  */
+
+div:hover{
+    transform:translate(200px); /*translateX() or translateY()*/
+    transform: skew(45deg); /*rombus jesa ban jayega */
+}
