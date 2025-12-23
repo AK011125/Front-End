@@ -1,0 +1,19 @@
+div{
+    background-color: antiquewhite;
+    height: 50px;
+    width: 50px;
+}
+@media(width<600px){
+    div{
+        background-color: brown;
+    }
+}
+@media(min-width:200px){
+    div{
+        background-color: aqua;
+    }
+}
+
+/* @media(condition){
+    what changes do we want
+    } */

@@ -11,7 +11,14 @@ div{
     width: 800px;
     height: 200px;
     display: flex;
+    flex-direction: row;
+    justify-content:space-around; /*use to set box1 to 5 in differ differ ways like 
+        space-around, space-evenly, center, flex-start, flex-end etc*/
+/* Short crisp notes of flexbox - https://chatgpt.com/share/69497397-f318-8002-bccf-5467a9d1a0ae */
+    
 }
+/* after setting display as flex we can use flexbox properties like 
+flex direction i.e, row(default)/ row-reverse/ column/ column-reverse */
 #box1{
     background-color: aqua;
 }

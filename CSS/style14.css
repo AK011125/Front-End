@@ -1,0 +1,24 @@
+#alpha{
+    background-color: black;
+    color: white;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+#one{
+    color: orange;
+}
+button{
+    background-color: orange;
+}
+#beta{
+    background-color: aqua;
+    display: flex;
+    justify-content:center;
+    height: 300px;
+    align-items: center; /*use for crossline adjustments*/
+}
+#gamma{
+    background-color: blue;
+    height: 50px;
+}
