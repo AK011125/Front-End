@@ -5,6 +5,7 @@ div{
     border-top: 10px solid black;
     border-radius: 50%;
     animation:spin 5s ease-in 0s infinite normal; /*for slow internet use step() instead of ease-in*/
+    /*animation: name| duration |timing function| delay |iteration count| direction*/
 }
 
 @keyframes spin{
